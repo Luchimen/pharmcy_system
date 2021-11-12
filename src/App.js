@@ -7,7 +7,7 @@ import { Navbar } from "./components/Navbar";
 
 const App = () => {
   return (
-    <div className="container">
+    <div className="">
       <Navbar />
       <Carrousel />
       <Category />

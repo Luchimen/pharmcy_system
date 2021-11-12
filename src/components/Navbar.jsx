@@ -3,10 +3,11 @@ import React from "react";
 export const Navbar = () => {
   return (
     <nav className="navbar">
+      <div className="navbar__container container">
       <h2 className="navbar__title">Logotipo</h2>
       <div className="navbar__search">
-        <p>Buscar medicamento</p>
-        <i class="fas fa-search"></i>
+        <p className="paragraph">Buscar medicamento</p>
+        <i class="fas fa-search icon"></i>
       </div>
       <ul>
         <li>
@@ -19,6 +20,8 @@ export const Navbar = () => {
           <a href="#">Mas buscados</a>
         </li>
       </ul>
+      </div>
+   
     </nav>
   );
 };
