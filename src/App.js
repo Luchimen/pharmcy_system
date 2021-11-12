@@ -7,13 +7,13 @@ import { Navbar } from "./components/Navbar";
 
 const App = () => {
   return (
-    <div className="">
+    <>
       <Navbar />
       <Carrousel />
       <Category />
       <MoreSearch />
       <Footer />
-    </div>
+    </>
   );
 };
 

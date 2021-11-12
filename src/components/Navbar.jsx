@@ -7,17 +7,17 @@ export const Navbar = () => {
       <h2 className="navbar__title">Logotipo</h2>
       <div className="navbar__search">
         <p className="paragraph">Buscar medicamento</p>
-        <i class="fas fa-search icon"></i>
+        <i className="fas fa-search icon"></i>
       </div>
-      <ul>
-        <li>
-          <a href="#">Inicio</a>
+      <ul className="navbar__list">
+        <li className="navbar__listitem">
+          <a href="#" className="navbar__item">Inicio</a>
         </li>
-        <li>
-          <a href="#">Catalogo</a>
+        <li className="navbar__listitem">
+          <a href="#" className="navbar__item">Catalogo</a>
         </li>
-        <li>
-          <a href="#">Mas buscados</a>
+        <li className="navbar__listitem">
+          <a href="#" className="navbar__item">Mas buscados</a>
         </li>
       </ul>
       </div>
