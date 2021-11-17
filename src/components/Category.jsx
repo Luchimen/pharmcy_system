@@ -5,10 +5,10 @@ export const Category = () => {
     <section className="category container">
       <h2 className="category__title">Categorias</h2>
       <div className="category__list">
-        <a href="#">Antibioticos</a>
-        <a href="#">AntiHistaminicos</a>
-        <a href="#">AntiInflamatorios</a>
-        <a href="#">Analgesicos</a>
+        <a href="www.google.com.pe">Antibioticos</a>
+        <a href="www.google.com.pe">AntiHistaminicos</a>
+        <a href="www.google.com.pe">AntiInflamatorios</a>
+        <a href="/">Analgesicos</a>
         {/* <li className="category__listitem">
           <a href="#">Antibioticos</a>
         </li>
