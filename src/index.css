@@ -8,6 +8,7 @@ body {
 
 /* Navbar Section */
 .container {
+  min-width: 1400px;
   width: 75%;
   margin: 0 auto;
   overflow: hidden;
@@ -17,6 +18,8 @@ body {
   width: 100%;
   color: #fff;
 }
+
+/* Navbar Section */
 
 .navbar__container {
   height: 130px;
@@ -48,9 +51,11 @@ body {
   /* border-bottom: 3px solid #fff; */
 }
 .icon {
+  color: white;
   align-self: center;
   font-size: 1.8rem;
   margin-left: 15px;
+  text-decoration: none;
 }
 .navbar__listitem {
   display: inline-block;
