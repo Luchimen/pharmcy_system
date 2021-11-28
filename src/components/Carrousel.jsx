@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 export const Carrousel = () => {
   const [count, setCount] = useState(1);
@@ -12,15 +12,15 @@ export const Carrousel = () => {
     }
     setCount(centinel);
   };
-  useEffect(() => {
-    setTimeout(() => {
-      if (count === 3) {
-        setCount(1);
-      } else {
-        setCount(centinel + 1);
-      }
-    }, 3500);
-  }, [count, centinel]);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     if (count === 3) {
+  //       setCount(1);
+  //     } else {
+  //       setCount(centinel + 1);
+  //     }
+  //   }, 3500);
+  // }, [count]);
   return (
     <section className="carrousel">
       <img
@@ -28,6 +28,7 @@ export const Carrousel = () => {
         src={`./images/imagen${count}.jpg`}
         alt="Imagen1"
         className="carrousel__img"
+        loading="lazy"
       />
       <i
         className="fas fa-chevron-left left"

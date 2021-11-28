@@ -1,14 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Category = () => {
   return (
     <section className="category container">
       <h2 className="category__title">Categorias</h2>
       <div className="category__list">
-        <a href="www.google.com.pe">Antibioticos</a>
-        <a href="www.google.com.pe">AntiHistaminicos</a>
-        <a href="www.google.com.pe">AntiInflamatorios</a>
-        <a href="/">Analgesicos</a>
+        <Link to="/category/antibioticos">Antibioticos</Link>
+        <Link to="/category/anti-histaminicos">AntiHistaminicos</Link>
+        <Link to="/category/anti-inflamatorios">AntiInflamatorios</Link>
+        <Link to="/category/analgesicos">Analgesicos</Link>
         {/* <li className="category__listitem">
           <a href="#">Antibioticos</a>
         </li>
